@@ -1,32 +1,194 @@
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
+/* This is the code to reset stylesheet: */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-h1 {
-      padding: 0;
-    margin: 0 0 .6em;
-    color: inherit;
-    font-weight: 900;
-    font-size: clamp(1.8em,calc(1em + 2.4vw),3em);
-    line-height: 1.2;
-        text-align: center;
+/* The code below is mine: */
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+/* background-color: #24252A; */
 }
 
 body {
   text-align: center;
 }
 
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(1.8em,calc(1em + 2.4vw),3em);
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+  font-family: 'Merriweather', sans-serif;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+p {
+   font-family: 'Merriweather', sans-serif;
+   font-size: 1.17em; 
+   margin-top: 15px;
+}
+
 button {
-      background-color: transparent;
-    border-color: #0c0418;
-    color: #0c0418;
-    font-family: "europa", sans-serif;
-        border-width: 2px;
-    font-weight: 400;
-    font-size: 18px;
-    padding: 1.2rem;
+    color: #333;
+    border: 3px solid; 
+    border-radius: 10px;
+    padding: 1em 2em;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0.5em 0.5em -0.4em #333; 
+    transform: translateY(-0.5em);
+    cursor: pointer; 
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 50%;
+  height: auto;
+}
+
+/* Below is the code for the nav bar: */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+  font-family: 'Merriweather', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  display: block;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-links li:hover {
+  background-color: #555;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
 }
