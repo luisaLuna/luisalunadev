@@ -88,6 +88,7 @@ button {
     letter-spacing: .1rem;
     transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
     margin: 20px;
+    width: 270px;
 }
 
 button:hover {
