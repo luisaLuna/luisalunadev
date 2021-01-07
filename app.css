@@ -151,6 +151,18 @@ img {
   width: 50%;
   height: auto;
 } */
+.contactMe {
+  margin-bottom: 10px;
+}
+
+a.link-linkedin {
+  text-decoration: none;
+  color: #0353a4;
+}
+
+span {
+   color: #0353a4;
+}
 
 .logos {
   display: flex;
