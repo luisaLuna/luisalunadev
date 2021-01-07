@@ -83,8 +83,9 @@ p {
 }
 
 .button {
-    color: #333;
+    color: black;
     border: 3px solid; 
+    border-color: #001233;
     border-radius: 10px;
     padding: 1em 2em;
     font-family: 'Merriweather', sans-serif;
@@ -102,9 +103,10 @@ p {
 }
 
 .button:hover {
-    background-color: #333;
+    background-color: #001233;
     color: #fff;
     box-shadow: 0 0.5em 0.5em -0.4em #333; 
+    border-color: #001233;
     transform: translateY(-0.25em);
     cursor: pointer; 
 }
