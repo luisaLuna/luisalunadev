@@ -155,7 +155,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #001233;
   color: white;
 }
 
@@ -186,7 +186,7 @@ img {
 }
 
 .navbar-links li:hover {
-  background-color: #555;
+  background-color: #0353a4;
 }
 
 .toggle-button {
