@@ -53,6 +53,11 @@ html {
   background: transparent; /* make scrollbar transparent */
 }
 
+* {
+overflow: hidden;
+box-sizing: border-box;
+}
+
 body {
   text-align: center;
 }
@@ -119,6 +124,7 @@ p {
 .holdingContainer {
   width: 100%;
   display: flex;
+  padding: 0.25rem 0.5rem;
 }
 
 .internalContainerLeft {
@@ -127,7 +133,7 @@ p {
   justify-content: center;
   flex: 1;
   padding: 10px;
-  margin-left: ;
+  margin-left: 100px;
 }
 
 .internalContainerRight {
