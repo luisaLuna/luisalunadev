@@ -344,3 +344,10 @@ a.link-linkedin {
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
