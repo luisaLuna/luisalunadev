@@ -179,7 +179,6 @@ font-family: 'Merriweather', sans-serif;
   justify-content: center;
   flex: 1;
   padding: 10px;
-  max-width: 50%; 
 }
 
 .internalContainerRight {
@@ -188,7 +187,6 @@ font-family: 'Merriweather', sans-serif;
   justify-content: center;
   flex: 1;
   padding: 10px;
-  max-width: 50%;
 }
 
 img {
@@ -347,9 +345,7 @@ a.link-linkedin {
   }
 
   .holdingContainer {
-    width: 400px;
     display: flex;
     flex-direction: column-reverse;
-   
   }
 
