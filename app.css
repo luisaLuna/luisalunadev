@@ -122,21 +122,19 @@ body {
 /* Here finishes the code for the nav bar */
 
 .containerH1 {
-  max-width: 1000px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Merriweather', sans-serif;
+  font-size: calc(2.5rem + 0.8vw);
+  line-height: 1.2;
+  margin: 20px;
 }
 
-h1 {
-    font-family: 'Lato', sans-serif;
-    font-size: calc(2.5rem + 0.8vw);
-    line-height: 1.2;
-    text-align: center;
-    margin: 20px; 
-}
 
 h2 {
   font-family: 'Merriweather', sans-serif;
-   font-size: calc(2rem + 0.8vw);
+  font-size: calc(2rem + 0.8vw);
   font-weight: bold;
   margin-top: 50px;
   text-align: center;
@@ -156,8 +154,7 @@ p {
 
 .button {
     color: white;
-    border: 3px solid; 
-    border-color: #001233;
+    border: 3px solid #001233;
     background-color: #001233;
     border-radius: 10px;
     padding: 1em 2em;
@@ -333,6 +330,11 @@ a.link-linkedin {
 /* Below are the Media Queries for the rest of the page: */
 
 @media (max-width: 850px) {
+.containerH1 {
+  margin: 7px;
+  margin-top: 20px;
+}
+
   .buttonPosition {
     display: flex;
     flex-direction: column;
@@ -341,15 +343,15 @@ a.link-linkedin {
   }
 
   .icons-container {
-    display: flex;
+    display: none;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
   }
 
   .holdingContainer {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 50px;
+    margin-top: 20px;
   }
-
