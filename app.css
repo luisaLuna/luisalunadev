@@ -355,3 +355,7 @@ a.link-linkedin {
     flex-direction: column-reverse;
     margin-top: 20px;
   }
+
+  .contact-me {
+    margin-top: 10px;
+  }
