@@ -71,11 +71,13 @@ body {
   color: white;
 }
 
-.brand-title {
+.brand-title a{
   font-size: 1.5rem;
   margin: .5rem;
   font-family: 'Merriweather', sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
+  color: white;
 }
 
 .navbar-links ul {
