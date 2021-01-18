@@ -230,9 +230,8 @@ font-family: 'Merriweather', sans-serif;
 
 .holdingContainer {
   display: flex;
-  max-width: 2000px;
+  max-width: 1500px;
   margin: 0 auto;
-  margin-top: 90px;
   justify-content: center;
   align-items: center;
   text-align: center;
