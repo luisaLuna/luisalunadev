@@ -136,6 +136,9 @@ body {
   text-align: center;
 }
 
+h1 {
+   max-width: 1000px;
+}
 
 h2 {
   font-family: 'Merriweather', sans-serif;
@@ -226,7 +229,7 @@ font-family: 'Merriweather', sans-serif;
 
 .holdingContainer {
   display: flex;
-  max-width: 1200px;
+  max-width: 2000px;
   margin: 0 auto;
   margin-top: 90px;
   justify-content: center;
