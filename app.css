@@ -69,6 +69,7 @@ body {
   align-items: center;
   background-color: #001233;
   color: white;
+  padding: 10px;
 }
 
 .brand-title a{
@@ -332,6 +333,10 @@ a.link-linkedin {
 /* Below are the Media Queries for the rest of the page: */
 
 @media (max-width: 850px) {
+.navbar {
+  padding: 15px;
+}
+
 .containerH1 {
   margin: 7px;
   margin-top: 20px;
