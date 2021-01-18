@@ -349,6 +349,10 @@ a.link-linkedin {
     justify-content: center;
   }
 
+  .button {
+    padding: 1.2em 2em;
+  }
+
   .icons-container {
     display: none;
     /* display: flex;
