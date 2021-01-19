@@ -125,7 +125,6 @@ body {
 }
 
 /* Here finishes the code for the nav bar */
-
 .containerH1 {
   display: flex;
   justify-content: center;
@@ -168,7 +167,7 @@ p {
     border-radius: 10px;
     padding: 1.2em 2em;
     font-family: 'Merriweather', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -177,7 +176,7 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
-    width: 270px;
+    width: 290px;
     text-align: center;
 }
 
@@ -230,7 +229,7 @@ font-family: 'Merriweather', sans-serif;
 
 .holdingContainer {
   display: flex;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
