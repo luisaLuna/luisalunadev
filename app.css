@@ -68,7 +68,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #001233;
-  color: white;
+  color: #fff;
   padding: 15px;
   margin-bottom: 50px;
 }
@@ -79,7 +79,7 @@ body {
   font-family: 'Merriweather', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  color: white;
+  color: #fff;
   padding: 16px;
 }
 
@@ -99,7 +99,8 @@ body {
   padding: 1rem;
   display: block;
   font-family: 'Merriweather', sans-serif;
-  font-size: 16px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .navbar-links li:hover {
@@ -138,6 +139,8 @@ body {
 
 h1 {
    max-width: 900px;
+   font-weight: bold;
+   margin-top: 50px;
 }
 
 h2 {
@@ -147,6 +150,25 @@ h2 {
   margin-top: 50px;
   text-align: center;
   margin-bottom: 8px;
+}
+
+
+.h2-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 25px;
+  color: rgb(29, 28, 28);
+  margin-bottom: 50px;
+
+}
+
+.title {
+  margin-top: 0px;
+  font-weight: normal;
 }
  
 p {
@@ -234,6 +256,7 @@ font-family: 'Merriweather', sans-serif;
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .internalContainerLeft {
