@@ -366,6 +366,10 @@ a.link-linkedin {
     margin-bottom: 0px;
   }
 
+  .navbar-links li a {
+    font-weight: 400;
+  }
+  
 .containerH1 { 
   max-width: 100%;
   margin-left: 3px;
