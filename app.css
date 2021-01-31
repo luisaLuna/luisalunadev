@@ -48,10 +48,10 @@ html {
   overflow: scroll;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
-  background: transparent; /* make scrollbar transparent */
-}
+  background: transparent; make scrollbar transparent
+} */
 
 * {
 overflow: hidden;
