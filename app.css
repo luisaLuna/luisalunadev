@@ -418,6 +418,7 @@ border-color: transparent;
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4;
+  cursor: pointer;
  }
 
 .login-box button span {
