@@ -330,6 +330,33 @@ a.link-linkedin {
 
 /* Below is the code for the Contact page:  */
 
+.containerH1-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Merriweather', sans-serif;
+  font-size: calc(2.5rem + 0.9vw);
+  line-height: 1.2;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.h2-container-contact h2 {
+  margin: 10px;
+  font-size: calc(1rem + 0.8vw);
+}
+
+.h2-container-contact  {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Merriweather', sans-serif;
+  color: rgb(29, 28, 28);
+  margin-top: 0px;
+}
+
+
 .login-container {
   display: flex;
   justify-content: center;
