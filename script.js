@@ -8,7 +8,6 @@ toggleButton.addEventListener('click', () => {
 // Here finishes the code for the nav bar.
 
 // Below is the code for the animation on the h1 text: 
-
 const textEl = document.getElementById('text');
 const speedEl = document.getElementById('speed');
 const text = 'Hi, my name is Luisa Luna, and I am a front-end software developer.';
