@@ -152,6 +152,41 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
+
+.buttonPosition {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+    color: white;
+    border: 3px solid #001233;
+    background-color: #001233;
+    border-radius: 10px;
+    padding: 1.2em 2em;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 290px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0353a4;
+    color: #fff;
+    box-shadow: 0 0.5em 0.5em -0.4em #333; 
+    border-color: #0353a4;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
 /* Here finishes the code used to build the "above the fold" section.  */
 
 .containerH1 {
@@ -208,41 +243,6 @@ p {
   justify-content: center;
   flex: 1;
   padding: 10px;
-}
-
-.button {
-    color: white;
-    border: 3px solid #001233;
-    background-color: #001233;
-    border-radius: 10px;
-    padding: 1.2em 2em;
-    font-family: 'Merriweather', sans-serif;
-    font-size: 1.1em;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width: 290px;
-    text-align: center;
-}
-
-.button:hover {
-    background-color: #0353a4;
-    color: #fff;
-    box-shadow: 0 0.5em 0.5em -0.4em #333; 
-    border-color: #0353a4;
-    transform: translateY(-0.25em);
-    cursor: pointer; 
-}
-
-.buttonPosition {
-  display: flex;
-  justify-content: center;
 }
 
 .icons-container {
