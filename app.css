@@ -139,7 +139,7 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   z-index: -2;
 }
 
@@ -215,12 +215,12 @@ h1 {
 h2 {
   font-family: 'Merriweather', sans-serif;
   font-size: calc(2rem + 0.8vw);
-  font-weight: bold;
+  font-weight: 800;
   margin-top: 50px;
   text-align: center;
   margin-bottom: 8px;
+  color: #001233;
 }
-
 
 .h2-container {
   display: flex;
@@ -232,6 +232,7 @@ h2 {
   font-size: 25px;
   color: rgb(29, 28, 28);
   margin-bottom: 50px;
+ 
 
 }
 
@@ -284,6 +285,16 @@ font-weight: bold;
 font-family: 'Merriweather', sans-serif;
 }
 
+section {
+background-color: #001233;
+color: white;
+ /* width: 1920px;
+ height: 733px; */
+ display: block;
+ margin-top: 0;
+ border-radius: 15px;
+}
+
 .holdingContainer {
   display: flex;
   max-width: 1200px;
@@ -315,6 +326,7 @@ img {
   border-radius: 15px;
 }
 
+
 .contact-me {
   margin-bottom: 10px;
   margin-top: 40px;
@@ -329,6 +341,7 @@ a.link-linkedin {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  
 }
 
 .linkedin {
@@ -662,7 +675,6 @@ border-color: transparent;
 
   .holdingContainer {
     display: flex;
-    flex-direction: column-reverse;
     margin-top: 20px;
   }
 
