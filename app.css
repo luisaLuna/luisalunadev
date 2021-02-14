@@ -54,7 +54,7 @@ html {
 } */
 
 * {
-overflow: hidden;
+  overflow: hidden;
 box-sizing: border-box;
 }
 
@@ -75,6 +75,7 @@ body {
   font-size: 1.8rem;
   margin: .5rem;
   font-family: 'Merriweather', sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
   color: #001233;
@@ -151,6 +152,11 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
+}
+
+.hero > * {
+  z-index: 10;
+  position: relative; 
 }
 
 .buttonPosition {
