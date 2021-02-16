@@ -387,6 +387,13 @@ a.link-linkedin {
   cursor: pointer;
 }
 
+.githubLogo {
+  border: none;
+}
+
+.linkedinLogo {
+  border: none;
+}
 /* Here finishes the code for the Homepage */
 
 /* Below is the code for the Contact page:  */
