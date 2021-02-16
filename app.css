@@ -305,7 +305,7 @@ color: white;
  /* width: 1920px;
  height: 733px; */
  display: block;
- margin-top: 0;
+ margin-top: 10px;
  border-radius: 15px;
 }
 
@@ -338,6 +338,7 @@ color: white;
 img {
   max-width: 100%;
   border-radius: 15px;
+  border: 10px solid #001233;
 }
 
 
