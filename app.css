@@ -179,8 +179,8 @@ body {
 
 .button {
     color: white;
-    border: 3px solid #001233;
-    background-color: #001233;
+    border: 3px solid #0353a4;
+    background-color: #0353a4;
     border-radius: 10px;
     padding: 1.2em 2em;
     font-family: 'Merriweather', sans-serif;
@@ -199,12 +199,13 @@ body {
 }
 
 .button:hover {
-    background-color: #0353a4;
+    background-color: #001233;
     color: #fff;
     box-shadow: 0 0.5em 0.5em -0.4em #333; 
-    border-color: #0353a4;
+    border-color: #001233;
     transform: translateY(-0.25em);
     cursor: pointer;
+    transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 /* Here finishes the code used to build the "above the fold" section.  */
 
