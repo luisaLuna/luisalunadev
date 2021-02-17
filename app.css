@@ -405,7 +405,7 @@ a.link-linkedin {
   font-family: 'Merriweather', sans-serif;
   font-size: calc(2.5rem + 0.9vw);
   line-height: 1.2;
-  margin-bottom: 100px;
+  margin-top: 150px; 
   text-align: center;
 }
 
@@ -702,4 +702,8 @@ border-color: transparent;
 
   .contact-me {
     margin-top: 30px;
+  }
+
+  .containerH1-contact {
+    margin-top: 100px;
   }
