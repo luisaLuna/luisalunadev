@@ -133,7 +133,7 @@ body {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: black;
+  background-color: #fff;
   border-radius: 10px;
 }
 /* Here finishes the code for the nav bar */
@@ -405,7 +405,7 @@ a.link-linkedin {
   font-family: 'Merriweather', sans-serif;
   font-size: calc(2.5rem + 0.9vw);
   line-height: 1.2;
-  margin-bottom: 0px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
