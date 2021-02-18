@@ -615,6 +615,16 @@ border-color: transparent;
 
 /* Here finishes the code for the Contact page */
 
+/* Below is the code for the Portfolio page: */
+
+.containerH1.portfolio {
+margin-top: 100px;
+}
+
+
+
+/* Here finishes the code for the Portfolio page */
+
 
 /* Below are the media queries for the nav bar */
 @media (max-width: 600px) {
