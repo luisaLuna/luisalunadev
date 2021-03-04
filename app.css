@@ -622,6 +622,11 @@ border-color: transparent;
 margin-top: 100px;
 }
 
+.title {
+  color: black;
+  font-size: 2rem;
+}
+
 #projects {
 background-color: #fff;
 display: flex;
@@ -632,8 +637,7 @@ margin: 0;
 }
 
 .box {
-  background-color: steelblue;
-  color: #fff;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -641,8 +645,10 @@ margin: 0;
   width: 800px;
   height: 700px;
   margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
   transform: translateX(400%);
   transition: transform 0.4s ease;
 }
@@ -656,10 +662,49 @@ margin: 0;
 }
 
 .box h2 {
-  font-size: 45px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: 'Merriweather', sans-serif;
+  color:#001233;
 }
 
 
+.description-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 0px;
+height: 200px;
+}
+
+.project-description {
+color: black;
+font-family: 'Merriweather', sans-serif;
+}
+
+.project-image {
+  width:  80%;
+  height: 70%;
+  margin-top: 10px;
+  border: none;
+}
+
+.btn-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-project {
+  font-family: 'Merriweather', sans-serif;
+  text-decoration: none;
+  color: black;
+ border: 2px solid #001233;
+ padding: 20px;
+ margin: 20px;
+}
 
 /* Here finishes the code for the Portfolio page */
 
