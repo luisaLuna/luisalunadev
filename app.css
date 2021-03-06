@@ -627,6 +627,10 @@ margin-top: 100px;
   font-size: 2rem;
 }
 
+.h2-container {
+margin-bottom: 0;
+}
+
 #projects {
 background-color: #fff;
 display: flex;
@@ -645,20 +649,12 @@ margin: 0;
   width: 800px;
   height: 700px;
   margin: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
-  transform: translateX(400%);
-  transition: transform 0.4s ease;
-}
-
-.box:nth-of-type(even) {
-  transform: translateX(-400%);
-}
-
-.box.show {
-  transform: translateX(0);
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-bottom: 60px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3); */
+  border-bottom: 3px solid #DCDCDC;
 }
 
 .box h2 {
@@ -668,18 +664,19 @@ margin: 0;
   color:#001233;
 }
 
-
 .description-container {
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 10px;
 margin-bottom: 0px;
-height: 200px;
+height: 300px;
+width: 85%;
 }
 
 .project-description {
 color: black;
+letter-spacing: .1rem;
 font-family: 'Merriweather', sans-serif;
 }
 
@@ -691,21 +688,39 @@ font-family: 'Merriweather', sans-serif;
 }
 
 .btn-container {
-  height: 100px;
+  width: 80%;
+  height: 150px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  margin-bottom: 0;
 }
 
 .btn-project {
   font-family: 'Merriweather', sans-serif;
   text-decoration: none;
-  color: black;
- border: 2px solid #001233;
- padding: 20px;
- margin: 20px;
+  font-size: 1.2em;
+  background-color: #001233;
+  color: #fff;
+  border: 3px solid #001233;
+  border-radius: 10px;
+  padding: 1em 1.5em;
+  letter-spacing: .1rem;
+  margin: 10px;
+  margin-top: 50px;
+  width: 50%;
+  text-align: center;
+  transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 
+.btn-project:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #333; 
+    border-color: #001233;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
 /* Here finishes the code for the Portfolio page */
 
 
@@ -803,3 +818,13 @@ font-family: 'Merriweather', sans-serif;
   .containerH1-contact {
     margin-top: 100px;
   }
+
+/* Below are the media queries for the Portfolio page: */
+/* .h2-cotainer {
+margin-bottom: 0;
+}
+
+.box {
+  margin-top: 0;
+} */
+}
