@@ -713,10 +713,10 @@ font-family: 'Merriweather', sans-serif;
 }
 
 .btn-project:hover {
-    background-color: #fff;
-    color: black;
+    background-color: #0353a4;
+    color: #fff;
     box-shadow: 0 0.5em 0.5em -0.4em #333; 
-    border-color: #001233;
+    border-color:  #0353a4;
     transform: translateY(-0.25em);
     cursor: pointer;
     transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
