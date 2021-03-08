@@ -620,15 +620,15 @@ border-color: transparent;
 
 .containerH1.portfolio {
 margin-top: 100px;
+margin-bottom: 0;
+display: flex;
+flex-direction: column;
 }
 
 .title {
   color: black;
-  font-size: 2rem;
-}
-
-.h2-container {
-margin-bottom: 0;
+  font-size: 1.8rem;
+  margin-top: 30px;
 }
 
 #projects {
