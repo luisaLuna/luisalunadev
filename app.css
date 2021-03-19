@@ -884,4 +884,10 @@ font-size: 20px;
   height: 60px;
   font-size: 1.1rem;
 }
+
+/* Below is the code for the contact form: */
+
+.login-container {
+  margin: 15px;
+}
 }
