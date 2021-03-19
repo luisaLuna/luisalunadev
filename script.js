@@ -26,7 +26,7 @@ const textEl = document.getElementById('text');
 const speedEl = document.getElementById('speed');
 const text = "Hi, I'm Luisa Luna, and I'm a front-end software developer.";
 let idx = 1
-let speed = 300 / 3
+let speed = 300 / 4.5
 
 writeText()
 
