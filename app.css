@@ -625,6 +625,10 @@ display: flex;
 flex-direction: column;
 }
 
+.h1-portfolio {
+  color: #001233;
+}
+
 .title {
   color: black;
   font-size: 1.8rem;
