@@ -801,6 +801,7 @@ font-size: 20px;
     padding: 1.2em 2em;
     margin-top: 10px;
   }
+
 .button.resumeButton {
   margin-bottom: 70px;
 }
@@ -812,9 +813,18 @@ font-size: 20px;
     justify-content: center; */
   }
 
+  #about {
+    max-width: 100%;
+  }
+
   .holdingContainer {
     display: flex;
     margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .internalContainerLeft {
+    max-width: 100%;
   }
 
   .contact-me {
